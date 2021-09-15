@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+footer {
+    background-color: #E5F0ED;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.email {
+    color: #284B63;
+    font-size:17px;
+}
+
+.email:hover {
+    color: #B72A46
+}
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*HEADER / NAV BAR */
+.ca{
+  padding: 10px;
+  margin: 10px;
+  clear:both;
+  overflow:auto;
+  background-color: #390040;
+  float: center;
+}
+
+.logo {
+    width: 15%;
+    height: auto; 
+}
+
+.byteLogo {
+    float: center;
+}
+
+.menu {
+    float: left;
+    width: 87%;
+    height: auto;    
+}
+
+.ca:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+
+nav{
+    float:right;
+}
+
+.logo img{float:left;width: 140px; height: 140px; border-radius: 50%; overflow: hidden; margin-top: -6px;}
+
+ul li{
+    display: inline-block; 
+    padding:10px; 
+    text-decoration: none;
+    color:#BCE7FD;
+    padding-top: 50px;
+}
+
+a {
+  text-decoration: none;
+  color:#BCE7FD;
+  font-size:25px;
+}
+
+a:active{
+  color:#fef4ae;
+}
+
+a:hover {
+    color: #E4DAE7;
+}
+
+@media screen and (max-width: 800px) {
+    .logo {
+        width: 100%
+    }
+
+    .menu {
+        width: 100%;
+    }
+
+    ul li {
+        width: 100%;
+        padding-top: 0px;
+    }
+    
+}
+
+/* END HEADER / NAV BAR */
+
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 800px) {
+    .abby {
+        float: left;
+        width: 100%
+    }
+
+    .corinna {
+        float: left;
+        width: 100%
+    }
+
+    .vaishnavi {
+        float: left;
+        width: 100%;
+    }
+
+}
+
+/* Add some shadows to create a card effect */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+    padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.chart {
+    float: center;
+}
+
+.abby {
+    float: left;
+    width: 33%
+}
+
+.corinna {
+    float: left;
+    width: 33%
+}
+
+.vaishnavi {
+    float: left;
+    width: 33%;
+}
+
+.chart:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.title {
+    color: grey;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+.name{
+    color: #390040;
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.photo {
+    height: 600px;
+    width: 500px;
+}

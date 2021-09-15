@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+footer {
+    background-color: #E5F0ED;
+  
+    width: 100%;
+    text-align: center;
+    align-content: center;
+
+}
+
+.footer {
+    font-size: 17px;
+    text-align: center;
+    padding: 0px;
+}
+
+.email {
+    color: #284B63;
+    font-size:17px;
+}
+
+.email:hover {
+    color: rgb(99, 8, 64)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+/*HEADER / NAV BAR */
+.ca{
+  padding: 10px;
+  margin: 10px;
+  clear:both;
+  overflow:auto;
+  background-color: #390040;
+  float: center;
+}
+
+.logo {
+    width: 15%;
+    height: auto; 
+}
+
+.byteLogo {
+    float: center;
+}
+
+.menu {
+    float: left;
+    width: 87%;
+    height: auto;    
+}
+
+.ca:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+
+nav{
+    float:right;
+}
+
+.logo img{float:left;width: 140px; height: 140px; border-radius: 50%; overflow: hidden; margin-top: -6px;}
+
+ul li{
+    display: inline-block; 
+    padding:10px; 
+    text-decoration: none;
+    color:#BCE7FD;
+    padding-top: 50px;
+}
+
+a {
+  text-decoration: none;
+  color:#BCE7FD;
+  font-size:25px;
+}
+
+a:active{
+  color:#fef4ae;
+}
+
+a:hover {
+    color: #B72A46;
+}
+
+@media screen and (max-width: 800px) {
+    .logo {
+        width: 100%
+    }
+
+    .menu {
+        width: 100%;
+    }
+
+    ul li {
+        width: 100%;
+        padding-top: 0px;
+    }
+    
+}
+
+/* END HEADER / NAV BAR */
+
+
+
+p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 2em;
+  margin-right: 2em;
+  font-size: 25px;
+  padding: 10px;
+  text-align: justify;
+}
+
+
+
+.container{
+font-family: monospace;
+  margin: 2em;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+}
+
+.content {
+  margin: 10px auto;
+  width: 400px;
+}
+
+.user{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  background: #420455;
+}
+
+.firstName, .goal {
+  width: 300px;
+  margin: 15px auto 5px auto;
+  padding: 5px;
+  font-size: 90%;
+  text-align: left;
+}
+
+.submit {
+  width: 300px;
+  padding: 5px;
+  margin: 5px auto 25px auto;
+  background: white;
+  border: none;
+  border-radius: 2px;
+  color: black;
+  font-size: 100%;
+}
+
+.printContainer {
+  padding: 30px;
+  background: rgb(150, 176, 231);
+}
+
+.quoteDisplay{
+  padding: 30px;
+  background-color: rgb(132, 177, 219);
+  margin-left: 30px;
+  margin-right:30px;
+}
+
+.positivity{
+  text-align: center;
+}
+
+blockquote {
+  font-size: 35px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgb(115, 128, 163);
+  text-align: center;
+  border-left: 20px solid #4d0350;
+  padding: 0.5em 50px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.button{
+  font-family: 'Lora', serif;
+  font-size: 25px;
+  border: 3px solid;
+  background-color: #5e0861;
+  color: white;
+  padding: 10px;
+}
+
+.inspire {
+    text-align: center;
+}
+
+.inspireText {
+    text-align: center;
+}
+
+.positive{
+    text-align: center;
+}
+
+h1{
+    color: navy;
+    font-size: 30px;
+}

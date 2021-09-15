@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+footer {
+    background-color: #E5F0ED;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.email {
+    color: #284B63;
+    font-size:17px;
+}
+
+.email:hover {
+    color: rgb(99, 8, 64)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+/*HEADER / NAV BAR */
+.ca{
+  padding: 10px;
+  margin: 10px;
+  clear:both;
+  overflow:auto;
+  background-color: #390040;
+  float: center;
+}
+
+.logo {
+    width: 15%;
+    height: auto; 
+}
+
+.byteLogo {
+    float: center;
+}
+
+.menu {
+    float: left;
+    width: 87%;
+    height: auto;    
+}
+
+.ca:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+
+nav{
+    float:right;
+}
+
+.logo img{float:left;width: 140px; height: 140px; border-radius: 50%; overflow: hidden; margin-top: -6px;}
+
+ul li{
+    display: inline-block; 
+    padding:10px; 
+    text-decoration: none;
+    color:#BCE7FD;
+    padding-top: 50px;
+}
+
+a {
+  text-decoration: none;
+  color:#BCE7FD;
+  font-size:25px;
+}
+
+a:active{
+  color:#fef4ae;
+}
+
+a:hover {
+    color: #E4DAE7;
+}
+
+.intro{
+    padding-right: 200px;
+    padding-left: 200px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 800px) {
+    .logo {
+        width: 100%
+    }
+
+    .menu {
+        width: 100%;
+    }
+
+    ul li {
+        width: 100%;
+        padding-top: 0px;
+    }
+
+    footer {
+        position: static;
+    }
+
+    .intro {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    
+}
+
+.moodTrackerGif{
+    max-width: 100%;
+    height: auto; 
+    border: 10px dashed;
+    text-align: center; 
+    margin: 10px;
+}
+
+.centerIMG {
+    text-align: center;
+}
+
+.brainBin{
+   height: 400px;
+  width: 800px;
+  border: 8px dotted lavender;
+}
+
+height: 500px;
+  width: auto; 
+  border: 6px dotted yellow;
+}
+
+
+
+.centerBig {
+  padding: 20px;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  margin: auto;
+  background-color: rgb(247, 128, 231);
+  color: cornsilk;
+  font-size: 20px;
+  justify-content: center;
+
+}
+
+label{
+  color: #495867;
+  font-size: 40px;
+}
+
+video{
+  height: 75%;
+  width: 75%;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin: 10%;
+
+
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  margin: 30px auto;
+  width: 500px;
+  
+}
+
+.user-input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+  background: rgb(152, 170, 219);
+}
+
+.name {
+  width: 300px;
+  margin: 25px auto 5px auto;
+  padding: 5px;
+  font-size: 200%;
+  text-align: center;
+}
+
+.submit-btn {
+  width: 500px;
+  padding: 10px;
+  margin: 10px auto 10px auto;
+  background: rgb(85, 4, 65);
+  border: none;
+  border-radius: 0px;
+  color: #fff;
+  font-size: 200%;
+  margin-bottom: 0;
+}
+
+.card-container {
+  padding: 10px;
+  background: rgb(143, 4, 62);
+}
+
+.name-card {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 300px;
+  background: #fff;
+}
+
+.delete {
+width: 50px;
+height: 40px;
+padding: 5px;
+text-align: center;
+}
+
+.bigCenter {
+  text-align: center;
+  font-size: 19px;
+  font-weight: 19px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.moods {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #EFCABD;
+}
+
+tr:nth-child(odd) {
+  background-color: #CFB5C1;
+}
+
+td, th {
+  padding-left: 400px;
+  padding: 10px;
+}
+
+.button {
+    background-color: #E4DAE7;
+    width: 150px;
+    height: 40px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.bin {
+    text-align: center;
+}
+
+h1 {
+    color: #334B5B;
+}
